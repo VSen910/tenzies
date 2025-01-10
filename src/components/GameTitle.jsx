@@ -10,7 +10,7 @@ export default function GameTitle({rollDice}) {
   }
   
   return (
-    <div className='w-72 mr-3'>
+    <div className='max-w-72 mr-3'>
       <h1 className="text-white lg:text-7xl md:text-6xl text-5xl font-bold mb-6">Tenzies</h1>
       <p className='text-white mb-3 text-2xl'>Rolls: {rolls}</p>
       <button className='bg-white rounded-md px-4 py-2 w-full' onClick={handleRoll}>Roll dice</button>
